@@ -1,0 +1,14 @@
+ 국내 타임 서버 목록
+ 
+ 1. NTP Primary Time Server(Stratum 1  Server)
+   - time2.kriss.re.kr
+   - time.bora.net
+   - ntp.kornet.net
+   - ntp.postech.ac.kr
+
+2. NTP Secondary Time Server(Stratum 2 Server)
+   - ntp.ewha.net
+   - ticktock.ewha.net
+   - time.bora.net
+
+출처: https://jhrun.tistory.com/158 [JHRunning]
