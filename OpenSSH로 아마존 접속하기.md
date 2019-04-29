@@ -13,6 +13,6 @@
 * `ssh -i "키페어" "유저 이름@퍼블릭 DNS"`을 입력합니다.
     * 예시 : `ssh -i "MyKeypair.pem" ec2-user@ec2-00-000-0-000.us-east-2.compute.amazonaws.com`
 * 접속이 잘 이루어졌다면 최종적으로 `[유저 이름@ip-프라이빗 IP ~]$`이 나온다.
-* ~~저 같은 경우에는 이 명령어를 batch 파일로 만들어 실행했습니다.~~(2019/04/28)
-* 환경변수로 SSH_KEY랑 SSH_IP랑 해서 `ssh -i %SSH_KEY% %SSH_IP%`로 동작하도록 했습니다.  
+* ~~저 같은 경우에는 이 명령어를 batch 파일로 만들어 실행했습니다.~~(2019.04.28)
+* 환경변수로 SSH_KEY랑 SSH_IP랑 해서 `ssh -i %SSH_KEY% %SSH_USER%@%SSH_IP%`로 만들었습니다.(2019.04.29) 
  (물론 IP에는 유저 이름도 포함하고 있습니다.)
