@@ -3,7 +3,8 @@
 1. 윈도우키 누르고 "선택적 기능 관리" 검색
 2. 기능 추가를 누르고 OpenSSH 클라이언트를 설치
 * (만약 윈도우를 서버로 쓸 거면 OpenSSH 서버도 설치하는데 우리는 아니니까 생략)
-
+* 서버에도 ssh가 깔려 있어야 합니다.  
+  깔려 있지 않다면 `pip apt-get install openssh-server`나 `yum install openssh-server`를 입력합니다
 ### 아마존 서버에 접속하기
 * 유저 이름은 Amazon Linux AMI의 경우 'ec2-user'다
     * 나머지 AMI는 [[여기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/putty.html#putty-ssh)] 참조
